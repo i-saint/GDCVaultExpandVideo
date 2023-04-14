@@ -1,3 +1,4 @@
+![](https://user-images.githubusercontent.com/1488611/231933045-f0d4b2ab-8568-44ff-83a0-e9aa2afee254.png)
 固定サイズかフルスクリーン表示しかできない GDC Vault のビデオを、ブラウザの画面サイズに合わせて拡大表示する Chrome 用の拡張です。
 
 #### 使い方
