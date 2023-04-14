@@ -1,0 +1,21 @@
+{
+  "name": "GDC Vault expand video",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.gdcvault.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["content.js"],
+      "matches": [ "https://www.gdcvault.com/*" ]
+    }
+  ]
+}
